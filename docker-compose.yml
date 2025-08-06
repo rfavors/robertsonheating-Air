@@ -9,7 +9,7 @@ services:
     labels:
       # Traefik configuration for Coolify
       - "traefik.enable=true"
-      - "traefik.http.routers.robertson-website.rule=Host(`your-domain.com`)"
+      - "traefik.http.routers.robertson-website.rule=Host(`remotelyfixit.com`)"
       - "traefik.http.routers.robertson-website.entrypoints=websecure"
       - "traefik.http.routers.robertson-website.tls.certresolver=letsencrypt"
       
