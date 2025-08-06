@@ -14,8 +14,8 @@ services:
       - "traefik.http.routers.robertson-website.tls.certresolver=letsencrypt"
       
       # Basic Authentication (uncomment and configure when needed)
-      # - "traefik.http.middlewares.robertson-auth.basicauth.users=boss:$$2y$$12$$ci.4U63YX83CwkyUrjqxAucnmi2xXOIlEF6T/KdP9824f1Rf1iyNG"
-      # - "traefik.http.routers.robertson-website.middlewares=robertson-auth"
+      - "traefik.http.middlewares.robertson-auth.basicauth.users=boss:$$2y$$12$$ci.4U63YX83CwkyUrjqxAucnmi2xXOIlEF6T/KdP9824f1Rf1iyNG"
+      - "traefik.http.routers.robertson-website.middlewares=robertson-auth"
     restart: unless-stopped
     networks:
       - coolify
