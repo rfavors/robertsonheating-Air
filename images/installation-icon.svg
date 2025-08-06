@@ -1,0 +1,17 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="40" fill="#1a1a1a"/>
+  <g transform="translate(20, 20)">
+    <!-- Heating/Cooling Unit -->
+    <rect x="8" y="12" width="24" height="16" rx="2" stroke="white" stroke-width="2" fill="none"/>
+    <rect x="12" y="16" width="16" height="8" rx="1" fill="white"/>
+    
+    <!-- Installation Tools -->
+    <path d="M6 8L10 4M10 4L14 8M10 4V12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Wrench -->
+    <path d="M32 32L36 36M36 36L40 32M36 36V28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Base/Foundation -->
+    <rect x="4" y="32" width="32" height="4" rx="2" fill="white"/>
+  </g>
+</svg>

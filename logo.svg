@@ -1,0 +1,40 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradient for the bars -->
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="20%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#b91c1c;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Semi-circular background with vertical bars -->
+  <g transform="translate(150,100)">
+    <!-- Curved vertical bars representing heating/cooling airflow -->
+    <path d="M -80 -40 Q -80 -50 -75 -50 Q -70 -50 -70 -40 L -70 40 Q -70 50 -75 50 Q -80 50 -80 40 Z" fill="#ef4444"/>
+    <path d="M -65 -35 Q -65 -45 -60 -45 Q -55 -45 -55 -35 L -55 35 Q -55 45 -60 45 Q -65 45 -65 35 Z" fill="#dc2626"/>
+    <path d="M -50 -30 Q -50 -40 -45 -40 Q -40 -40 -40 -30 L -40 30 Q -40 40 -45 40 Q -50 40 -50 30 Z" fill="#b91c1c"/>
+    <path d="M -35 -25 Q -35 -35 -30 -35 Q -25 -35 -25 -25 L -25 25 Q -25 35 -30 35 Q -35 35 -35 25 Z" fill="#991b1b"/>
+    <path d="M -20 -20 Q -20 -30 -15 -30 Q -10 -30 -10 -20 L -10 20 Q -10 30 -15 30 Q -20 30 -20 20 Z" fill="#7c2d12"/>
+    <path d="M -5 -15 Q -5 -25 0 -25 Q 5 -25 5 -15 L 5 15 Q 5 25 0 25 Q -5 25 -5 15 Z" fill="#7c3aed"/>
+    <path d="M 10 -20 Q 10 -30 15 -30 Q 20 -30 20 -20 L 20 20 Q 20 30 15 30 Q 10 30 10 20 Z" fill="#6366f1"/>
+    <path d="M 25 -25 Q 25 -35 30 -35 Q 35 -35 35 -25 L 35 25 Q 35 35 30 35 Q 25 35 25 25 Z" fill="#3b82f6"/>
+    <path d="M 40 -30 Q 40 -40 45 -40 Q 50 -40 50 -30 L 50 30 Q 50 40 45 40 Q 40 40 40 30 Z" fill="#2563eb"/>
+    <path d="M 55 -35 Q 55 -45 60 -45 Q 65 -45 65 -35 L 65 35 Q 65 45 60 45 Q 55 45 55 35 Z" fill="#1d4ed8"/>
+    <path d="M 70 -40 Q 70 -50 75 -50 Q 80 -50 80 -40 L 80 40 Q 80 50 75 50 Q 70 50 70 40 Z" fill="#1e40af"/>
+  </g>
+  
+  <!-- Robertson text in script style -->
+  <text x="150" y="140" text-anchor="middle" font-family="'Brush Script MT', cursive, 'Inter', sans-serif" font-size="36" font-weight="bold" fill="#1e40af" transform="rotate(-2 150 140)">Robertson</text>
+  
+  <!-- Underline for Robertson -->
+  <path d="M 70 145 Q 150 155 230 145" stroke="#1e40af" stroke-width="3" fill="none"/>
+  
+  <!-- HEATING & AIR text -->
+  <text x="110" y="175" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#ef4444" letter-spacing="2px">HEATING</text>
+  <text x="150" y="175" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#1f2937">&</text>
+  <text x="190" y="175" text-anchor="middle" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#1e40af" letter-spacing="2px">AIR</text>
+</svg>

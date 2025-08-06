@@ -1,0 +1,23 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="40" fill="#1a1a1a"/>
+  <g transform="translate(20, 20)">
+    <!-- Wrench -->
+    <path d="M8 32L12 28L16 32L12 36L8 32Z" fill="white"/>
+    <rect x="14" y="26" width="12" height="4" rx="2" fill="white" transform="rotate(45 20 28)"/>
+    
+    <!-- Screwdriver -->
+    <rect x="28" y="8" width="2" height="16" fill="white"/>
+    <rect x="26" y="6" width="6" height="4" rx="1" fill="white"/>
+    
+    <!-- Heating/Cooling Unit with problem indicator -->
+    <rect x="6" y="12" width="20" height="12" rx="2" stroke="white" stroke-width="2" fill="none"/>
+    <circle cx="16" cy="18" r="2" fill="#dc2626"/>
+    
+    <!-- Repair indicators -->
+    <path d="M32 16L36 12M32 20L36 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Tool box -->
+    <rect x="24" y="28" width="12" height="8" rx="1" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M27 28V26C27 25.4 27.4 25 28 25H32C32.6 25 33 25.4 33 26V28" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+</svg>

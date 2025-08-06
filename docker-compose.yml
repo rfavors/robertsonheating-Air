@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  robertson-website:
+    build: .
+    container_name: robertson-heating-air
+    ports:
+      - "80:80"
+    labels:
+      # Traefik configuration for Coolify
+      - "traefik.enable=true"
+      - "traefik.http.routers.robertson-website.rule=Host(`your-domain.com`)"
+      - "traefik.http.routers.robertson-website.entrypoints=websecure"
+      - "traefik.http.routers.robertson-website.tls.certresolver=letsencrypt"
+      
+      # Basic Authentication (uncomment and configure when needed)
+      # - "traefik.http.middlewares.robertson-auth.basicauth.users=boss:$$2y$$12$$ci.4U63YX83CwkyUrjqxAucnmi2xXOIlEF6T/KdP9824f1Rf1iyNG"
+      # - "traefik.http.routers.robertson-website.middlewares=robertson-auth"
+    restart: unless-stopped
+    networks:
+      - coolify
+
+networks:
+  coolify:
+    external: true

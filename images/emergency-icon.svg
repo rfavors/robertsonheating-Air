@@ -1,0 +1,28 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="40" fill="#1a1a1a"/>
+  <g transform="translate(20, 20)">
+    <!-- Emergency phone -->
+    <rect x="6" y="8" width="12" height="20" rx="2" stroke="white" stroke-width="2" fill="none"/>
+    <rect x="8" y="12" width="8" height="12" rx="1" fill="white"/>
+    <circle cx="12" cy="26" r="1" fill="white"/>
+    
+    <!-- 24/7 indicator -->
+    <text x="22" y="16" fill="white" font-size="8" font-weight="bold">24</text>
+    <text x="22" y="26" fill="white" font-size="8" font-weight="bold">7</text>
+    
+    <!-- Emergency alert/siren -->
+    <path d="M12 4L16 8L8 8L12 4Z" fill="#dc2626"/>
+    <circle cx="12" cy="6" r="1" fill="white"/>
+    
+    <!-- Lightning bolt for urgency -->
+    <path d="M32 12L28 20H32L30 28L34 20H30L32 12Z" fill="#dc2626"/>
+    
+    <!-- Heating/cooling unit with emergency indicator -->
+    <rect x="8" y="32" width="20" height="8" rx="1" stroke="white" stroke-width="2" fill="none"/>
+    <circle cx="18" cy="36" r="2" fill="#dc2626"/>
+    
+    <!-- Emergency tools -->
+    <rect x="30" y="32" width="8" height="2" fill="white"/>
+    <rect x="33" y="29" width="2" height="8" fill="white"/>
+  </g>
+</svg>
